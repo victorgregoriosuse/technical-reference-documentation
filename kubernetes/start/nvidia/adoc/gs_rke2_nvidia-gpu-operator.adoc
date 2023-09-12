@@ -43,18 +43,19 @@ include::./common_docinfo_vars.adoc[]
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // document
 // -
-:title: Title
-:subtitle: Subtitle
+:title: NVIDIA GPU Operator with RKE2
+:subtitle: Deploying the NVIDIA GPU operator on an RKE2 cluster with SLES15
 
-:product1: Primary SUSE product/platform short name (abbreviation)
-:product1_full: Primary SUSE product/platform full name
-:product1_version: Primary SUSE product/platform relevant version or versions
-:product1_url: Primary SUSE product/platform URL (without the protocol)
-:product2: Secondary product short name
-:product2_full: Secondary product full name
-:product2_url: Secondary product URL
+:product1: RKE2
+:product1_full: Rancher Kubernetes Engine 2
+:product1_version: v1.25.12+rke2r1
+:product1_url: docs.rke2.io/
+:product2: SLES
+:product2_full: SUSE Linux Enterprise Server
+:product3_version: 15 SP4
+:product2_url: www.suse.com/products/server/
 
-:usecase: A few words to identify high level use case (e.g., Database-as-a-Service, edge analytics in healthcare, Kubernetes-native object storage)
+:usecase: Simplify the deployment of the NVIDIA GPU operator on RKE2 clusters.
 
 :executive_summary: A brief statement of what this document provides (e.g., This document provides a brief introduction to implementing {usecase} with {product2_full} and {product1_full}.)
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -64,14 +65,14 @@ include::./common_docinfo_vars.adoc[]
 // specify information about authors, editors, and others here,
 // then update docinfo file as appropriate
 // -
-:author1_firstname: first (given) name
-:author1_surname: surname
-:author1_jobtitle: job title
-:author1_orgname: organization affiliation
-//:author2_firstname: first (given) name
-//:author2_surname: surname
-//:author2_jobtitle: job title
-//:author2_orgname: organization affiliation
+:author1_firstname: Victor
+:author1_surname: Gregorio
+:author1_jobtitle: Senior Manager, Solutions Architects
+:author1_orgname: SUSE
+:author2_firstname: Terry
+:author2_surname: Smith
+:author2_jobtitle: Director, Global Partner Solutions
+:author2_orgname: SUSE
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
